@@ -548,6 +548,25 @@ b 7 b b b 1 b b b b b 1 b b b b
 b 7 b b b b b b b b b b b b b b 
 b 7 b b b 1 b b b b b 1 b b b b 
 `;
+            case "image16":
+            case "sploosh":return img`
+f f f f f f f f f f f f f f f f 
+f 5 5 5 f 5 f 5 f 5 f 5 f 5 5 f 
+f 7 5 7 7 5 f 5 f 5 f 5 f 5 f 5 
+f 7 5 7 4 5 5 5 f 5 7 5 7 5 f 5 
+f 7 5 7 7 5 f 5 f 5 5 5 4 5 5 f 
+c 7 4 7 7 7 c c c 7 4 7 7 7 c c 
+c 7 7 7 7 7 c c c 7 7 7 4 7 c c 
+c c c 7 7 7 7 7 c 7 7 7 7 7 c c 
+c c c 7 4 7 7 7 c c c e c c c c 
+c c c 7 7 7 7 7 c c c e c c c c 
+c c c 7 7 7 4 7 c c c e c 7 7 7 
+c c c 7 7 7 7 7 c c c e c 7 4 7 
+c c c c c e c c c c c c c 7 7 7 
+c c c c c e c c c c c c c c e c 
+c c c c c c c c c c c c c c e c 
+c c c c c c c c c c c c c c c c 
+`;
         }
         return null;
     })

@@ -114,6 +114,11 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "no door ç-ç"
     },
+    "image16": {
+        "data": "hwQQABAAAAD//8/MzMzMzF93d8fMzMzMX1VFx8zMzMxfd3d3d3fMzP9Hd3d0d8zMX1V1d3d37sz/X898d3TMzF9VxXx3d8zM///PzMzMzMxfVXV3zMzMzP9/RXfMzMzMX1V1d+7uzMz/f3R0zMzMzF9VdXfMd8fMX//FzMxH587/Vc/MzHfHzA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "sploosh"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",

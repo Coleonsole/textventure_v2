@@ -8,6 +8,16 @@ function _2 () {
     opalchain = 1
     adventure.addToTextlog("You wait until the two young men are out of sight")
 }
+function _5 () {
+    adventure.addToTextlog("You slip your way through the busy crowd")
+    adventure.addToTextlog("\"Axel\" A heavy arm lands on your shoulder")
+    adventure.addToTextlog("It's an officer you're familiar with in a friendly way")
+    adventure.addToTextlog("Its a short walk to the balcony")
+    adventure.addToTextlog("And a long fall to the ground")
+    adventure.addImageToTextLog(assets.image`sploosh`)
+    game.setGameOverMessage(false, "Never shoulda done that")
+    game.gameOver(false)
+}
 function _3 () {
     adventure.addToTextlog("You grab the staff")
     adventure.addImageToTextLog(assets.image`Staff`)
