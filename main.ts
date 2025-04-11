@@ -1,12 +1,48 @@
-/**
- * start-10
- */
+function _7 () {
+    adventure.addToTextlog("The goblet is safely in your satchel")
+    adventure.addToTextlog("Time to join Rose on the roof")
+    adventure.addToTextlog("Uh-oh")
+    adventure.addToTextlog("Rose must have thought you were trying to free Thrash")
+    adventure.addImageToTextLog(img`
+        . f f f 1 f f f f f . . . . . . 
+        . f e 4 d 4 e f c f f f . . . . 
+        . f 4 d 1 d 4 f c c f f f . . . 
+        . f 4 4 d 4 4 f a a a f f f . . 
+        . f f f 1 f f f c c c a a f . . 
+        . . f a d f f f f f f c a f . . 
+        . . f f 1 1 1 1 1 1 1 f f f . . 
+        . f f e d 1 f 1 1 f 1 f e f f . 
+        . f e e 1 1 1 1 1 1 1 4 e e f . 
+        . . f c d c c c c c c c b f . . 
+        . . . f 1 c c c c c c b f . . . 
+        . . . . d a c c c c b f . . . . 
+        . . . . 1 c c c c c b f . . . . 
+        . . . . d a a 5 5 a a f . . . . 
+        . . . . 1 c c c c c c . . . . . 
+        . . . . d c c . . c c . . . . . 
+        `)
+    adventure.addToTextlog("The rope comes loose and you crash onto the ground")
+    adventure.addImageToTextLog(assets.image`Guard0`)
+    adventure.addToTextlog("\"Well, well, well...\"")
+    adventure.addToTextlog("\"Look who we have here...\"")
+    adventure.addToTextlog("Two guards close in on you")
+}
 function _2 () {
     adventure.addToTextlog("The guest whistles idly to himself as you whisk the item from his pocket")
     adventure.addImageToTextLog(assets.image`Opal Ring`)
     adventure.addToTextlog("Its a chain attached to a huge opal")
     opalchain = 1
     adventure.addToTextlog("You wait until the two young men are out of sight")
+}
+/**
+ * start-10
+ */
+function _6 () {
+    adventure.addToTextlog("\"Idiot!\" The stranger grips your neck")
+    adventure.addToTextlog("Tigher")
+    adventure.addToTextlog("Tighter still")
+    adventure.addToTextlog("You will never know what happens to Thrash, or Rose, or Ra")
+    game.gameOver(false)
 }
 function _5 () {
     adventure.addToTextlog("You slip your way through the busy crowd")
