@@ -11,11 +11,11 @@ function _2 () {
 function _5 () {
     adventure.addToTextlog("You slip your way through the busy crowd")
     adventure.addToTextlog("\"Axel\" A heavy arm lands on your shoulder")
-    adventure.addToTextlog("It's an officer you're familiar with in a friendly way")
+    adventure.addToTextlog("It's an officer you're familiar with. Not in a friendly way")
     adventure.addToTextlog("Its a short walk to the balcony")
     adventure.addToTextlog("And a long fall to the ground")
-    adventure.addImageToTextLog(assets.image`sploosh`)
-    game.setGameOverMessage(false, "Never shoulda done that")
+    adventure.addImageToTextLog(assets.image`thud`)
+    game.setGameOverMessage(false, "you died")
     game.gameOver(false)
 }
 function _3 () {
